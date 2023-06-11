@@ -31,7 +31,7 @@ public class DataMhsDb {
             Logger.getLogger(DataMhsDb.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SQLException ex) {
             Logger.getLogger(DataMhsDb.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        }   
     };
     
     public void insertDB(String nama, String nim, String jurusan, String alamat, String phone) {
