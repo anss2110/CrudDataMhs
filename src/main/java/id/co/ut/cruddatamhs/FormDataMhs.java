@@ -251,6 +251,11 @@ public class FormDataMhs extends javax.swing.JFrame {
 
     private void btnClearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClearActionPerformed
         // TODO add your handling code here:
+        txtNama.setText("");
+        txtNim.setText("");
+        txtJurusan.setSelectedIndex(0);
+        txtAlamat.setText("");
+        txtPhone.setText("");
     }//GEN-LAST:event_btnClearActionPerformed
 
     private void tblMhsMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tblMhsMouseClicked
